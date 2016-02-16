@@ -243,7 +243,7 @@ if (!class_exists('RangePlugin')) {
 								if ( apply_filters( 'rpf-show-general-settings-submit'.$this->_slug, true ) ) {
 								?>
 								<p class="submit">
-									<input type="submit" name="Submit" value="<?php esc_attr_e('Update Options &raquo;', $this->_slug); ?>" />
+									<input type="submit" name="Submit" value="<?php esc_attr_e('Save Settings', $this->_slug); ?>" class="button button-primary" />
 								</p>
 								<?php
 								}
