@@ -170,7 +170,7 @@ class efficientRelatedPosts extends RangePlugin {
 					</tr>
 					<tr valign="top">
 						<th scope="row">
-							<?php _e("Other Setting:", $this->_slug);?>
+							<?php _e("Other Settings:", $this->_slug);?>
 						</th>
 						<td>
 							<input name="erp[auto_insert]" id="erp_auto_insert_no" type="radio" value="no"<?php checked('no', $this->_settings['erp']['auto_insert']) ?>>
