@@ -440,7 +440,7 @@ QUERY;
 
 	public function processPost( $a ) {
 		$a = get_post( $a );
-		// Don't Process revisions
+		// Don't process revisions
 		if ( $a->post_type == 'revision' ) {
 			return;
 		}
