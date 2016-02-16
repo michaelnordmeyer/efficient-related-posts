@@ -155,7 +155,7 @@ class efficientRelatedPosts extends RangePlugin {
 							<label for="erp_max_relations_stored"><?php _e('Max Related Posts to Store:', $this->_slug); ?></label>
 						</th>
 						<td>
-							<input id="erp_max_relations_stored" name="erp[max_relations_stored]" type="text" class="regular-text code" value="<?php esc_attr_e($this->_settings['erp']['max_relations_stored']); ?>" size="40" />
+							<input id="erp_max_relations_stored" name="erp[max_relations_stored]" type="number" step="1" min="1" max="99" class="screen-per-page" maxlength="2" size="2" value="<?php esc_attr_e($this->_settings['erp']['max_relations_stored']); ?>" />
 							<span class="setting-description"><?php _e("Max number to store.  You can't display more than this.", $this->_slug); ?></span>
 						</td>
 					</tr>
@@ -164,7 +164,7 @@ class efficientRelatedPosts extends RangePlugin {
 							<label for="erp_num_to_display"><?php _e('Number of Related Posts to Display:', $this->_slug); ?></label>
 						</th>
 						<td>
-							<input id="erp_num_to_display" name="erp[num_to_display]" type="text" class="regular-text code" value="<?php esc_attr_e($this->_settings['erp']['num_to_display']); ?>" size="40" />
+							<input id="erp_num_to_display" name="erp[num_to_display]" type="number" step="1" min="1" max="99" class="screen-per-page" maxlength="2" size="2" value="<?php esc_attr_e($this->_settings['erp']['num_to_display']); ?>" />
 							<span class="setting-description"><?php _e('The number of related posts to display if none is specified.', $this->_slug); ?></span>
 						</td>
 					</tr>
