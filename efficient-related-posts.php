@@ -92,7 +92,7 @@ class efficientRelatedPosts extends RangePlugin {
 					</tr>
 				</table>
 				<p class="submit">
-					<input type="submit" name="process_posts" value="<?php esc_attr_e('Process Posts/Pages', $this->_slug); ?>" class="button" />
+					<input type="submit" name="process_posts" value="<?php esc_attr_e('Build Relations', $this->_slug); ?>" class="button" />
 				</p>
 			</form>
 		<?php
