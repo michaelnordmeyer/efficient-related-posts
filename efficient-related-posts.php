@@ -288,7 +288,7 @@ class efficientRelatedPosts extends RangePlugin {
 			/**
 			 * @todo The before and after setting should apply to this too
 			 */
-			$output .= "<li>{$settings['no_rp_text']}</li>";
+			$output .= "<!-- {$settings['no_rp_text']} -->";
 		} else {
 			$relatedPosts = array_slice($relatedPosts, 0, $settings['num_to_display']);
 			foreach ( $relatedPosts as $p ) {
