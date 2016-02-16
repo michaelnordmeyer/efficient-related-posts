@@ -92,7 +92,7 @@ class efficientRelatedPosts extends RangePlugin {
 					</tr>
 				</table>
 				<p class="submit">
-					<input type="submit" name="process_posts" value="<?php esc_attr_e('Process Posts/Pages', $this->_slug); ?>" />
+					<input type="submit" name="process_posts" value="<?php esc_attr_e('Process Posts/Pages', $this->_slug); ?>" class="button" />
 				</p>
 			</form>
 		<?php
@@ -110,7 +110,7 @@ class efficientRelatedPosts extends RangePlugin {
 				<input type="hidden" name="erp[scheduled]" value="<?php echo $_POST['erp']['scheduled']; ?>" />
 				<input type="hidden" name="erp[continue]" value="true" />
 				<p class="submit">
-					<input type="submit" name="process_posts" value="<?php _e('Continue Processing'); ?>" />
+					<input type="submit" name="process_posts" value="<?php _e('Continue Processing'); ?>" class="button" />
 				</p>
 			</form>
 		<?php
