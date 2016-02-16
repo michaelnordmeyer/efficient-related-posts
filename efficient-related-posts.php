@@ -178,16 +178,6 @@ class efficientRelatedPosts extends RangePlugin {
 								<?php _e("Do Not Auto Insert Into Posts", $this->_slug);?>
 							</label>
 							<br />
-							<input name="erp[auto_insert]" id="erp_auto_insert_all" type="radio" value="all"<?php checked('all', $this->_settings['erp']['auto_insert']) ?>>
-							<label for="erp_auto_insert_all">
-								<?php _e("Auto Insert Everywhere (Posts and Pages)", $this->_slug);?>
-							</label>
-							<br />
-							<input name="erp[auto_insert]" id="erp_auto_insert_single-all" type="radio" value="single-all"<?php checked('single-all', $this->_settings['erp']['auto_insert']) ?>>
-							<label for="erp_auto_insert_single-all">
-								<?php _e("Auto Insert Into Only Single Posts and Pages", $this->_slug);?>
-							</label>
-							<br />
 							<input name="erp[auto_insert]" id="erp_auto_insert_posts" type="radio" value="posts"<?php checked('posts', $this->_settings['erp']['auto_insert']) ?>>
 							<label for="erp_auto_insert_posts">
 								<?php _e("Auto Insert Into Posts", $this->_slug);?>
@@ -196,6 +186,16 @@ class efficientRelatedPosts extends RangePlugin {
 							<input name="erp[auto_insert]" id="erp_auto_insert_single" type="radio" value="single"<?php checked('single', $this->_settings['erp']['auto_insert']) ?>>
 							<label for="erp_auto_insert_single">
 								<?php _e("Auto Insert Into Only Single Posts", $this->_slug);?>
+							</label>
+							<br />
+							<input name="erp[auto_insert]" id="erp_auto_insert_single-all" type="radio" value="single-all"<?php checked('single-all', $this->_settings['erp']['auto_insert']) ?>>
+							<label for="erp_auto_insert_single-all">
+								<?php _e("Auto Insert Into Only Single Posts and Pages", $this->_slug);?>
+							</label>
+							<br />
+							<input name="erp[auto_insert]" id="erp_auto_insert_all" type="radio" value="all"<?php checked('all', $this->_settings['erp']['auto_insert']) ?>>
+							<label for="erp_auto_insert_all">
+								<?php _e("Auto Insert Everywhere (Posts and Pages)", $this->_slug);?>
 							</label>
 							<br />
 							<br />
