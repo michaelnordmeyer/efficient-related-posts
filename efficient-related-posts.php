@@ -313,7 +313,7 @@ class efficientRelatedPosts extends RangePlugin {
 		$output = "<ul class='related_post'>{$output}</ul>";
 
 		if ( !empty($settings['title']) )
-			$output = "<h3 class='related_post_title'>{$settings['title']}</h3>{$output}";
+			$output = "<h5 class='related_post_title'>{$settings['title']}</h5>{$output}";
 
 		$output = apply_filters( 'erp-related-links-output', $output, $p, $settings );
 
