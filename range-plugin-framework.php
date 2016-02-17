@@ -1,9 +1,13 @@
 <?php
 /**
- * Version: 1.1.0
+ * Version: 1.1.1
  */
 /**
  * Changelog:
+ * 
+ * 1.1.1:
+ *  - Fixed plugin URI
+ *  - Added WordPress button class, changed button wording
  *
  * 1.1.0:
  *  - Complete change to Range framework
