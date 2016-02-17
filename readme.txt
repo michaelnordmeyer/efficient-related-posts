@@ -3,7 +3,7 @@ Contributors: aaroncampbell
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9996714
 Tags: related posts, posts, related, seo
 Requires at least: 2.8
-Tested up to: 3.7
+Tested up to: 4.4.2
 Stable tag: 0.4.2
 
 A related posts plugin that works quickly even with thousands of posts and tags.  Can be added automatically to the end of posts.
