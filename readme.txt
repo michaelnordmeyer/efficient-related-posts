@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: related posts, posts, related, seo
 Requires at least: 2.8
 Tested up to: 3.7
-Stable tag: 0.4.1
+Stable tag: 0.4.2
 
 A related posts plugin that works quickly even with thousands of posts and tags.  Can be added automatically to the end of posts.
 
@@ -41,6 +41,11 @@ related posts, although I recommend not doing that anyway.
 1. Use automatic installer to install and active the plugin.
 
 == Frequently Asked Questions ==
+
+= What metrics are used? =
+
+Posts are considered related based on tags.  This may be extended in the future,
+but I wanted to keep the queries as clean as possible.
 
 = How can I add a list of related posts to my posts? =
 
@@ -90,14 +95,9 @@ least related post that is currently stored, it re-processes that post.  Simple
 right?  Well, maybe it's not so simple, but rest assured that your posts can and
 will show the posts they are most related to regardless of post date.
 
-= What metrics are used? =
-
-Posts are considered related based on tags.  This may be extended in the future,
-but I wanted to keep the queries as clean as possible.
-
 == Upgrade Notice ==
 
-= 0.4.0 =
+= 0.4.1 =
 Fix issue with related posts not being auto inserted
 
 = 0.4.0 =
@@ -106,6 +106,14 @@ Add several handy new filters
 Upgrade to new Range plugin framework
 
 == Changelog ==
+
+= 0.4.2 =
+* Added compatibility to PHP 7
+* GUI enhancements to related posts output. Smaller heading and no display of "No Related Posts"
+* GUI enhancements to buttons and settings order in settings
+* Fixed outdated links
+* Better internal error handling
+* Changed FAQ to emphasize on what the relations are based on to avoid confusion
 
 = 0.4.1 =
 * Fix incorrect function name
